@@ -2,45 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>movie api</title>
+    <link rel="stylesheet" href="movie.css">
   </head>
   <body>
-    <h1>My Heading</h1>
+    <h1>search movie</h1>
+    <form action='#' method='post' id='form'>
+      <label>keyword</label>
+      <input id='keyword' type='text' name='keyword' value=''>
+    </form>
 
-    <ul class='breakfast'>
-      <li class='monday'>
-        <h2>Monday</h2>
-        <ul>
-          <li class="list-item">one</li>
-          <li class="list-item">two</li>
-          <li class="list-item">three</li>
-        </ul>
-      </li>
-
-      <li class='tuesday'>
-        <h2>Tuesday</h2>
-        <ul>
-          <li class="list-item">egg</li>
-          <li class="list-item">sandwich</li>
-          <li class="list-item">tortilla</li>
-        </ul>
-      </li>
+    <ul>
     </ul>
 
-    <button id = 'add'>add</button>
-
-    <ul class='lunch'>
-      <li class="list-item-jq">four</li>
-      <li class="list-item-jq">five</li>
-      <li class="list-item-jq">six</li>
-    </ul>
-
-    <button id='lunch'>eat lunch</button>
-    <button id = 'addtobf'>back to breakfast</button>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src='movie.js'></script>
   </body>
 </html>
